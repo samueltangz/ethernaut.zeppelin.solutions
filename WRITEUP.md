@@ -64,7 +64,11 @@ web3.eth.getStorageAt(contract.address, 1, (err, res) => {
 
 ## Level 9: King
 
+_TODO_
+
 ## Level 10: Re-entrancy
+
+_TODO_
 
 ## Level 11: Elevator
 
@@ -152,7 +156,11 @@ Don't forget that one could approve someone to spend the token instead of onesel
 
 ## Level 16: Preservation
 
+_TODO_
+
 ## Level 17: Locked
+
+_TODO_
 
 ## Level 18: Recovery
 
@@ -160,5 +168,8 @@ Transaction for deploying instance: https://ropsten.etherscan.io/tx/0xe6913b87b4
 
 * Check the address for `SimpleToken` (where the 0.5 ETH is sent to): `0xcd8fee146597cadca0bc84482689e65342d8beb5`
 ```JavaScript
-web3.eth.sendTransaction({ to: '0xcd8fee146597cadca0bc84482689e65342d8beb5', data: '0x00f55d9d000000000000000000000000bce00fd336be3be338458e93efc80da14f8a3e05' }, (err, res) => alert(res))
+web3.eth.sendTransaction({
+  to: '0xcd8fee146597cadca0bc84482689e65342d8beb5',
+  data: '0x00f55d9d000000000000000000000000bce00fd336be3be338458e93efc80da14f8a3e05'
+}, (err, res) => alert(res))
 ```
